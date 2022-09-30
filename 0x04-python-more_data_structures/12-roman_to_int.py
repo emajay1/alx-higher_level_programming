@@ -19,8 +19,11 @@ def _get_value(char):
         return romans[char]
     return None
 
+
 def roman_to_int(roman):
+
     """
+
     Converts a roman numerals to Decimal
     Args:
         roman - the string f roman numerals
@@ -42,6 +45,7 @@ def roman_to_int(roman):
         prev = cur
 
     return result
+
 
 if __name__ == '__main__':
     tests = [
